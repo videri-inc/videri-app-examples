@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.videri.appvarexample'
+    compileSdkVersion 36
+    defaultConfig {
+        applicationId "com.videri.appvarexample"
+        minSdkVersion 23
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation ('androidx.appcompat:appcompat:1.7.1')
+    implementation ('androidx.constraintlayout:constraintlayout:2.2.1')
+    implementation ('androidx.lifecycle:lifecycle-process:2.10.0')
+}
