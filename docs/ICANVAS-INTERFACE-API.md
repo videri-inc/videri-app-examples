@@ -14,12 +14,8 @@
 4. [VServiceConnection.CmdStatus](#vserviceconnectioncmdstatus)
 5. [VServiceBroadcastDefinitions](#vservicebroadcastdefinitions)
 6. [ConnectionState](#connectionstate)
-7. [Setting](#setting)
-8. [RenderingMode](#renderingmode)
-9. [ScaleType](#scaletype)
-10. [ErrorCodes](#errorcodes)
-11. [BaseVideriApi](#basevideriapi)
-12. [IVService (AIDL)](#ivservice-aidl)
+7. [ErrorCodes](#errorcodes)
+8. [BaseVideriApi](#basevideriapi)
 
 ---
 
