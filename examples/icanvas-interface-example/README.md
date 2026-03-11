@@ -46,3 +46,7 @@ The main feature of the private command registry is that:
 * the commands parameters are not logged, so can be used to pass in secure information like API keys
 
 Note - one can use the command `list_command_subscriptions` in the command terminal to determine if the new commands are successfully registered
+
+## API Reference
+
+For full details on the iCanvasPlayer Interface SDK — including `VServiceConnection`, `VServiceBroadcastDefinitions`, and all available constants — see the [iCanvasPlayer Interface SDK — API Reference](../../docs/ICANVAS-INTERFACE-API.md).

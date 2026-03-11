@@ -41,5 +41,5 @@ Below is a partial list of supported Videri hardware:
 
 | Example | Description |
 |---------|-------------|
-| [appvar-example](examples/appvar-example/) | Demonstrates how to read per-schedule key/value variables passed via launch intents and handle app-level foreground/background lifecycle transitions using `ProcessLifecycleOwner`. |
-| [icanvas-interface-example](examples/icanvas-interface-example/) | Demonstrates how to communicate with the icanvasplayer application via the `VServiceConnection` AIDL interface — sending and receiving commands from the Demo API — and how to register custom private commands using the command registry. |
+| [appvar-example](examples/appvar-example/README.md) | Demonstrates how to read per-schedule key/value variables passed via launch intents and handle app-level foreground/background lifecycle transitions using `ProcessLifecycleOwner`. |
+| [icanvas-interface-example](examples/icanvas-interface-example/README.md) | Demonstrates how to communicate with the icanvasplayer application via the `VServiceConnection` AIDL interface — sending and receiving commands from the Demo API — and how to register custom private commands using the command registry. See also: [iCanvasPlayer Interface SDK — API Reference](docs/ICANVAS-INTERFACE-API.md) |
